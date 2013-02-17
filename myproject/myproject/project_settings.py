@@ -12,9 +12,12 @@
 #CELERYD_PREFETCH_MULTIPLIER = 1
 
 
+import os
 import sys
 
-if 'runserver' in sys.argv:
+if 'PRODUCTION' in os.environ and os.environ['PRODUCTION'].lower() in [True, 'y', 'yes', '1',]:
+    from production_settings import *
+elif 'runserver' in sys.argv:
     from local_settings import *
 else:
     from production_settings import *
