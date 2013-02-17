@@ -149,3 +149,5 @@ LOGGING = {
         },
     }
 }
+
+from custom_settings import *
