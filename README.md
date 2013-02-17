@@ -1,14 +1,18 @@
-# django-settings
+django-settings
+===============
+
 Django Settings Organized for Production and Development Environments.
 
-### Use development settings
+## Use development settings
     $ cd myproject
     $ python manage.py runserver
+![django-settings screenshot](https://raw.github.com/django-settings/django-settings/master/screenshot/development-settings.png "")
 
-### Use production settings
+## Use production settings
     $ cd myproject
     $ export PRODUCTION=1
     $ python manage.py runserver
+![django-settings screenshot](https://raw.github.com/django-settings/django-settings/master/screenshot/production-settings.png "")
 
 ## Settings File
 
