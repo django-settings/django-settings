@@ -1,4 +1,4 @@
-# Production Settings - Settings that are specific to a produciton environment (
+# Production Settings - Settings that are specific to a production environment (
 # e.g. DEBUG, TEMPLATE_DEBUG, DATABASES, etc.)
 
 DEBUG = False
