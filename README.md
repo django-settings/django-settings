@@ -1,7 +1,16 @@
-django-settings
-===============
-
+# django-settings
 Django Settings Organized for Production and Development Environments.
+
+### Use development settings
+    $ cd myproject
+    $ python manage.py runserver
+
+### Use production settings
+    $ cd myproject
+    $ export PRODUCTION=1
+    $ python manage.py runserver
+
+## Settings File
 
 **settings.py** - default settings. untouched except for custom_settings import. don't touch. always loaded.
 
