@@ -20,7 +20,7 @@ else:
     if 'runserver' in sys.argv:
         version = 'DEVELOPMENT'
         color = '[1;93m' # Bold High Intensity Yellow + Underline
-    print '\n{star}  \x1b{color}{version}\x1b[0m {star}\n'.format(color=color,
-                                                                  star='\xE2\x98\x85',
-                                                                  version=version)
+        print '\n{star}  \x1b{color}{version}\x1b[0m {star}\n'.format(color=color,
+                                                                      star='\xE2\x98\x85',
+                                                                      version=version)
     from local_settings import *
