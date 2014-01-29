@@ -12,5 +12,5 @@ DATABASES = {
 
 from custom_settings import INSTALLED_APPS
 INSTALLED_APPS += (
-    #'debug_toolbar',
+    # 'debug_toolbar',
 )

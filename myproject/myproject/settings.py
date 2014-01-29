@@ -81,4 +81,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# from custom_settings import *
+from custom_settings import *
