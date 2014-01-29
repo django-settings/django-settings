@@ -15,9 +15,16 @@
 import os
 import sys
 
+version = 'PRODUCTION'
+color = '[1;92m' # Bold High Intensity Green + Underline
 if 'PRODUCTION' in os.environ and os.environ['PRODUCTION'].lower() in [True, 'y', 'yes', '1',]:
-    from production_settings import *
+    from local_settings import *
 elif 'runserver' in sys.argv:
+    version = 'DEVELOPMENT'
+    color = '[1;93m' # Bold High Intensity Yellow + Underline
     from local_settings import *
 else:
-    from production_settings import *
+    from local_settings import *
+print '\n{star}  \x1b{color}{version}\x1b[0m {star}\n'.format(color=color,
+                                                              star='\xE2\x98\x85',
+                                                              version=version)
