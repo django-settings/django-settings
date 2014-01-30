@@ -58,11 +58,6 @@ if win32:
 
 if 'runserver' in sys.argv:
     print '-' * 80
-    #print 'production: {0}'.format(production)
-    #print 'local:      {0}'.format(local)
-    #print 'linux:      {0}'.format(linux)
-    #print 'os x:       {0}'.format(os_x)
-    #print 'win32:      {0}'.format(win32)
     print ' :: '.join(current_settings)
     print '-' * 80
 
