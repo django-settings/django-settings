@@ -14,6 +14,7 @@ If you need an environment-specific setting, add the setting in the respective f
 ## Development settings
 
     $ cd myproject
+    $ export PRODUCTION=0
     $ python manage.py runserver
 ![django-settings screenshot](https://raw.github.com/django-settings/django-settings/master/screenshot/development-settings.png "")
 
