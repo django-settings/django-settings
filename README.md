@@ -9,7 +9,7 @@ Django Settings organizes your project settings for use in various environments 
 2. Add `from custom_settings import *` to the bottom of your `settings.py`.
 3. You're done. Settings for production, development, Linux, OS X, and Windows will now be included when run in their respective environments.
 
-If you need an environment-specific setting, add the setting in the respective file. For example, to turn on debugging when your project is run on a Windows server, add `DEBUG = True` in `win32_settings.py`.
+If you need an environment-specific setting, add the setting in the respective file. For example, to just turn on debugging when your project is run on a Windows server, add `DEBUG = True` in `win32_settings.py`.
 
 ## Development settings
 
