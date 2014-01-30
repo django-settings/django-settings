@@ -1,7 +1,7 @@
 django-settings
 ===============
 
-Django Settings Organized for Production and Development Environments.
+Django Settings organized for various environments.
 
 ## Use development settings
     $ cd myproject
