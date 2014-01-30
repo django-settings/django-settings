@@ -1,8 +1,7 @@
-# Custom Settings - Settings that exist in settings.py that you want to
-# append to or override.
+# Define settings that are not specified in settings.py.
 
 ADMINS = (
-    ('Django Settings', 'django-settings@example.com'),
+    ('Zach Borboa', 'zachborboa@example.com'),
 )
 
 TIME_ZONE = 'America/Los_Angeles'
@@ -13,7 +12,7 @@ TEMPLATE_DIRS = (
 
 from settings import INSTALLED_APPS
 INSTALLED_APPS += (
-    # 'grappelli',
+    # '',
 )
 
-from project_settings import *
+from user_settings import *

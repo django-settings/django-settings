@@ -81,4 +81,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# settings.py
+#   custom_settings.py
+#     user_settings.py
+#       production_settings.py
+#       local_settings.py
+#       linux_settings.py
+#       os_x_settings.py
+#       win32_settings.py
 from custom_settings import *

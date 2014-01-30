@@ -1,16 +1,21 @@
-# Production Settings - Settings that are specific to a production environment (
-# e.g. DEBUG, TEMPLATE_DEBUG, DATABASES, etc.)
+# Define settings that are specific to the production environment.
 
 DEBUG = False
-TEMPLATE_DEBUG = DEBUG
+TEMPLATE_DEBUG = False
 
 DATABASES = {
-    'default': {
+    'default' : {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'database_name',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
+ALLOWED_HOSTS = [
+    '.example.com',
+]
+
+SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'

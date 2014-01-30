@@ -1,5 +1,4 @@
-# Local Settings - Settings that are specific to a development environment (
-# e.g. DATABASES, INTERNAL_IPS, INSTALLED_APPS, etc.)
+# Define settings that are specific to the local environment.
 
 DATABASES = {
     'default': {
@@ -8,7 +7,7 @@ DATABASES = {
     }
 }
 
-# INTERNAL_IPS = ('127.0.0.1',)
+INTERNAL_IPS = ('127.0.0.1',)
 
 from custom_settings import INSTALLED_APPS
 INSTALLED_APPS += (
