@@ -42,3 +42,12 @@ Settings that are specific to a production environment (e.g. SECRET_KEY, DEBUG =
 
 ### local_settings.py
 Settings that are specific to a local development environment (e.g. DEBUG = True, TEMPLATE_DEBUG = True, INSTALLED_APPS += ('debug_toolbar',), DATABASES, INTERNAL_IPS, etc.). Loaded when `export PRODUCTION=0` is specified on the command line.
+
+### linux_settings.py
+Settings that are specific to a Linux environment.
+
+### os_x_settings.py
+Settings that are specific to an OS X environment.
+
+### win32_settings.py
+Settings that are specific to a Windows environment.
